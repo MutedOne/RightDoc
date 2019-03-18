@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.carlmatch.RIGHTDOC">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.carlmatch.RIGHTDOC.HomeController">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.carlmatch.RIGHTDOC.ViewListContents" />
+        <activity android:name="com.example.carlmatch.RIGHTDOC.UserController" />
+        <activity android:name="com.example.carlmatch.RIGHTDOC.LoginController" />
+        <activity android:name="com.example.carlmatch.RIGHTDOC.RegisterController" />
+        <activity android:name="com.example.carlmatch.RIGHTDOC.ForgotPasswordController" />
+        <activity android:name="com.example.carlmatch.RIGHTDOC.AdviceandReceiptController" />
+        <activity android:name="com.example.carlmatch.RIGHTDOC.AdivceController" />
+    </application>
+
+</manifest>
